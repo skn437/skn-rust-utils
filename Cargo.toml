@@ -8,7 +8,7 @@ readme = "README.md"
 license = "MIT"
 keywords = ["utility", "library"]
 categories = ["command-line-interface"]
-exclude = ["/.github", ".editorconfig", ".gitignore", "rustfmt.toml"]
+exclude = ["/.idea", "/.github", ".editorconfig", ".gitignore", "rustfmt.toml"]
 authors = ["SKN Shukhan"]
 repository = "https://github.com/skn437/skn-rust-utils"
 
