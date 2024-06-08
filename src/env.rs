@@ -1,7 +1,7 @@
 use config::{Config, ConfigError, File};
 use serde::de::Deserialize;
 
-/// Builds an external config file to get data outside the program
+/// Builds an external config file to get data from outside the program
 ///
 /// ## Generics:
 ///

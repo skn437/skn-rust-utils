@@ -6,7 +6,8 @@
 //!
 //! ## Features:
 //!
-//! - This crate's `env` module has 1 function which provides highly convenient way to build an external config
+//! - This crate's `env` module has 1 function which provides highly convenient way to build an
+//! external config
 //! - This crate's `execution` has 2 functions to help execute commands in terminal
 //! - This crate's `stdio` has 1 function to read input value in the terminal
 //!

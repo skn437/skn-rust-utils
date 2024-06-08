@@ -20,7 +20,7 @@
 
 ## **_Introduction:_**
 
-### This is a simple Rust Library for some essential utility functionalities
+### This is a simple Rust Library for some essential utility functions
 
 ### I made this library so that I can use it in all of my rust projects without writing the same codes over and over again
 
@@ -30,21 +30,29 @@
 
 ## **_Details:_**
 
-### **`Message` Module:**
+### **`env` Module:**
 
-- It has 3 functions which return colored Strings as output
+- It has 1 function which builds external config file functionality to get data from outside the program
+- `init_config` function takes generic
+- The file name is `rustenv.toml` from which you can get data after invoking the function
+- The config file `rustenv.toml` must be placed in the root directory where `Cargo.toml` file is
+- To read values from the file properly you need [serde](https://crates.io/crates/serde) crate
+- See `Usage` section to get an example of how to use it
 
-  - error (takes 1 argument & returns a red colored String with cross mark)
-  - success (takes 1 argument & returns a green colored String with tick mark)
-  - info (takes 1 argument & returns a blue colored String with book info mark)
+### **`execution` Module**
 
-- It has 3 functions which outputs formatted static String notifications
+- It has 2 functions which help to execute commands in the terminal
+- `execute_command` function can run any command in the terminal
+  - it takes the command name as first argument
+  - it takes a reference of string slice (&str) array as command arguments
+- `gnome_execute_command` function can run open a new gnome terminal and executes commands in it
+  - it takes only one argument which is a string slice (&str)
+  - if multiple command needs to be executes then the commands must be separated by `;`
 
-  - action_failure (takes 1 argument as 'action name' & outputs an action failure message)
-  - action_complete (takes 1 argument as 'action name' & outputs an action complete message)
-  - action_notify (takes 2 arguments as 'action name', 'notification info' & outputs an action info message)
+### **`stdio` Module**
 
-- The String returned by each function, doesn't contain new line character i.e. '\n'
+- It has 1 function which reads user input and returns it
+- `read_line` function returns String if it successfully reads input else it returns Error
 
 &nbsp;
 
@@ -58,7 +66,7 @@
 
 - 💀 Minimum Rust Version: `1.78.0`
 - 💀 Crates:
-  - serde: `1.0.203`
+  - [serde](https://crates.io/crates/serde): `1.0.203`
 
 &nbsp;
 
@@ -163,7 +171,9 @@
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. I can't thank them
-  enough for always treasuring me a lot. I am lucky that I met with these two amazing ladies. They have two special
+- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. I
+  can't thank them
+  enough for always treasuring me a lot. I am lucky that I met with these two amazing ladies. They
+  have two special
   places in my heart and no other girl can ever replace them.
-- 💯`My Father & Mother`: The greatest treasures of my life ever.
+- 💯`My Parents`: The greatest treasures of my life ever.
