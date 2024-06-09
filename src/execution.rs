@@ -25,7 +25,7 @@ use std::{
 /// ```rust
 /// use best_skn_utils::execution::execute_command;
 ///
-/// execute_command("cargo", &["doc", "--open"]);
+/// execute_command("cargo", &["build"]);
 /// ```
 pub fn execute_command(command: &str, args: &[&str]) {
   let result: Result<Child, Error> = Command::new(command).args(args).spawn();

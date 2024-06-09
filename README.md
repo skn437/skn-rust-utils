@@ -45,14 +45,14 @@
 - `execute_command` function can run any command in the terminal
   - it takes the command name as first argument
   - it takes a reference of string slice (&str) array as command arguments
-- `gnome_execute_command` function can run open a new gnome terminal and executes commands in it
+- `gnome_execute_command` function can open a new gnome terminal and executes commands in it
   - it takes only one argument which is a string slice (&str)
-  - if multiple command needs to be executes then the commands must be separated by `;`
+  - if multiple command needs to be executed then the commands must be separated by `;`
 
 ### **`stdio` Module**
 
 - It has 1 function which reads user input and returns it
-- `read_line` function returns String if it successfully reads input else it returns Error
+- `read_line` function returns String if it successfully reads the input else returns Error
 
 &nbsp;
 
