@@ -1,0 +1,31 @@
+name: Cargo Package Publish CI
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  publish:
+    name: Package Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Task
+        uses: arduino/setup-task@v1
+        with:
+          version: 3.x
+          repo-token: ${{ secrets.GITHUB_TOKEN}}
+
+      - name: Set up Rust Toolchain
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+
+      - name: Log in to Cargo.io
+        env:
+          CARGO_TOKEN: ${{ secrets.CARGO_TOKEN }}
+        run: cargo login ${CARGO_TOKEN}
+
+      - name: Publish to Cargo.io
+        run: task publish

@@ -1,0 +1,20 @@
+version: "3"
+
+dotenv:
+  - .env.task
+
+tasks:
+  rustdoc:
+    desc: Open Rustdoc
+    cmds:
+      - cargo doc --open
+
+  list:
+    desc: Show package contents
+    cmds:
+      - cargo package --list
+
+  publish:
+    desc: Publish to Cargo.io
+    cmds:
+      - cargo publish
