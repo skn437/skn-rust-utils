@@ -9,6 +9,11 @@ tasks:
     cmds:
       - cargo doc --open
 
+  list:
+    desc: Show package contents
+    cmds:
+      - cargo package --list
+
   publish:
     desc: Publish to Cargo.io
     cmds:
