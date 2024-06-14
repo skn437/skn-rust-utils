@@ -9,7 +9,6 @@ license = "MIT"
 keywords = ["utility", "library"]
 categories = ["command-line-utilities", "config"]
 include = ["/src"]
-#exclude = ["/.github", "/.idea", ".editorconfig", ".env.task", ".gitignore", "rustfmt.toml", "taskfile.yaml"]
 authors = ["SKN Shukhan"]
 repository = "https://github.com/skn437/skn-rust-utils"
 
