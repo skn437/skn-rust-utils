@@ -12,9 +12,10 @@
 
 ### Read the Rustdoc for the main Modules
 
-- [env](https://docs.rs/best_skn_utils/1.0.0/best_skn_utils/env/index.html)
-- [execution](https://docs.rs/best_skn_utils/1.0.0/best_skn_utils/execution/index.html)
-- [stdio](https://docs.rs/best_skn_utils/1.0.0/best_skn_utils/stdio/index.html)
+- [env](https://docs.rs/best_skn_utils/1.1.0/best_skn_utils/env/index.html)
+- [execution](https://docs.rs/best_skn_utils/1.1.0/best_skn_utils/execution/index.html)
+- [stdio](https://docs.rs/best_skn_utils/1.1.0/best_skn_utils/stdio/index.html)
+- [random](https://docs.rs/best_skn_utils/1.1.0/best_skn_utils/random/index.html)
 
 &nbsp;
 
@@ -48,11 +49,22 @@
 - `gnome_execute_command` function can open a new gnome terminal and executes commands in it
   - it takes only one argument which is a string slice (&str)
   - if multiple command needs to be executed then the commands must be separated by `;`
+- See `Usage` section to get an example of how to use it
 
 ### **`stdio` Module**
 
 - It has 1 function which reads user input and returns it
 - `read_line` function returns String if it successfully reads the input else returns Error
+- See `Usage` section to get an example of how to use it
+
+### **`random` Module**
+
+- It has 1 function that generates random number from a given range
+- `gen_random_number` function takes two parameters to set a range. One is `low` and the other one is `high`
+- The parameters can either be `Integer` or `Float`
+- parameter `low` and `high` must be of same type i.e. you cannot set a range of say from 1 to 10.1
+- The second parameter `high` is inclusive i.e. a range of 1 and 10 will mean the range includes from 1 to 10
+- See `Usage` section to get an example of how to use it
 
 &nbsp;
 
@@ -81,7 +93,7 @@
 ### Inside your Rust Code, import the package like this
 
 > ```rust
-> use best_skn_utils::{env, execution, stdio};
+> use best_skn_utils::{env, execution, stdio, random};
 > ```
 
 ### Use the modules like the following (Just an example)
@@ -165,6 +177,15 @@
 >   | Ok(value) => println!("Your name: {}", value),
 >   | Err(e) => println!("Error: {}", e),
 > }
+> ```
+
+#### (4) For `random` module, you can use like this
+
+> ```rust
+> use best_skn_utils::random::gen_random_number;
+>
+> let num1: i32 = gen_random_number(1, 10);
+> let num2: f64 = gen_random_number(1.5, 7.5);
 > ```
 
 &nbsp;
