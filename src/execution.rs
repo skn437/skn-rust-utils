@@ -32,7 +32,7 @@ pub fn execute_command(command: &str, args: &[&str]) {
 
   match result {
     | Ok(_) => (),
-    | Err(e) => println!("Error: {}", error(e.to_string().as_str())),
+    | Err(e) => println!("Error: {}", error(e)),
   }
 }
 

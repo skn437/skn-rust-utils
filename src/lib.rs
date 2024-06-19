@@ -16,6 +16,10 @@
 //! - 💀 Rust Version: **1.78.0**
 //! - 💀 Crates:
 //!     - serde: **1.0.203**
+//!
+//! ## Version:
+//!
+//! 1.1.0
 
 /// This module provides functionality for building an external configuration
 ///
@@ -23,10 +27,6 @@
 ///
 /// - It has 1 function that returns a deserialized value read from an external config file
 /// `rustenv.toml`
-///
-/// ## Version:
-///
-/// 1.0.0
 ///
 /// ## Since:
 ///
@@ -40,10 +40,6 @@ pub mod env;
 /// - It has 1 function that executes any kind of command in the terminal
 /// - It has 1 function that opens a new gnome-terminal and runs command inside it
 ///
-/// ## Version:
-///
-/// 1.0.0
-///
 /// ## Since:
 ///
 /// 2024-06-07
@@ -55,11 +51,18 @@ pub mod execution;
 ///
 /// - It has 1 function that reads user input in the terminal with prompt
 ///
-/// ## Version:
-///
-/// 1.0.0
-///
 /// ## Since:
 ///
 /// 2024-06-07
 pub mod stdio;
+
+/// This module provides functionality for generating random number
+///
+/// ## `random` module
+///
+/// - It has 1 function that generates random number from a given range
+///
+/// ## Since:
+///
+/// 2024-06-19
+pub mod random;
