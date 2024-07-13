@@ -12,10 +12,11 @@
 
 ### Read the Rustdoc for the main Modules
 
-- [env](https://docs.rs/best_skn_utils/1.1.0/best_skn_utils/env/index.html)
-- [execution](https://docs.rs/best_skn_utils/1.1.0/best_skn_utils/execution/index.html)
-- [stdio](https://docs.rs/best_skn_utils/1.1.0/best_skn_utils/stdio/index.html)
-- [random](https://docs.rs/best_skn_utils/1.1.0/best_skn_utils/random/index.html)
+- [env](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/env/index.html)
+- [execution](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/execution/index.html)
+- [stdio](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/stdio/index.html)
+- [random](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/random/index.html)
+- [args](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/args/index.html)
 
 &nbsp;
 
@@ -25,7 +26,7 @@
 
 ### I made this library so that I can use it in all of my rust projects without writing the same codes over and over again
 
-### The main Modules of this library are `env`, `execution` & `stdio`
+### The main Modules of this library are `env`, `execution`, `stdio`, `random` & `args`
 
 &nbsp;
 
@@ -66,6 +67,12 @@
 - The second parameter `high` is inclusive i.e. a range of 1 and 10 will mean the range includes from 1 to 10
 - See `Usage` section to get an example of how to use it
 
+### **`args` Module**
+
+- It has 1 function that provides a collection of arguments passed in command line interface
+- `get_args` function returns a collection as a vector of String
+- See `Usage` section to get an example of how to use it
+
 &nbsp;
 
 ## **_Use Case:_**
@@ -79,6 +86,9 @@
 - 💀 Minimum Rust Version: `1.78.0`
 - 💀 Crates:
   - [serde](https://crates.io/crates/serde): `1.0.203`
+  - [num](https://crates.io/crates/num): `0.4.3`
+  - [rand](https://crates.io/crates/rand): `0.8.5`
+  - [config](https://crates.io/crates/config): `0.14.0`
 
 &nbsp;
 
@@ -93,7 +103,7 @@
 ### Inside your Rust Code, import the package like this
 
 > ```rust
-> use best_skn_utils::{env, execution, stdio, random};
+> use best_skn_utils::{env, execution, stdio, random, args};
 > ```
 
 ### Use the modules like the following (Just an example)
@@ -186,6 +196,16 @@
 >
 > let num1: i32 = gen_random_number(1, 10);
 > let num2: f64 = gen_random_number(1.5, 7.5);
+> ```
+
+#### (5) For `args` module, you can use like this
+
+> ```rust
+> use best_skn_utils::args::get_args;
+>
+> let args: Vec<String> = get_args();
+>
+> println!("{:?}", args);
 > ```
 
 &nbsp;
