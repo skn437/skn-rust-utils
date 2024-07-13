@@ -10,16 +10,21 @@
 //! external config
 //! - This crate's `execution` module has 2 functions to help execute commands in terminal
 //! - This crate's `stdio` module has 1 function to read input value in the terminal
+//! - This crate's `random` module has 1 function that generates a random number in a given range
+//! - This crate's `args` module has 1 function that returns a collection of arguments passed in command line interface
 //!
 //! ## Minimum Requirements:
 //!
 //! - 💀 Rust Version: **1.78.0**
 //! - 💀 Crates:
 //!     - serde: **1.0.203**
+//!     - num: **0.4.3**
+//!     - rand: **0.8.5**
+//!     - config: **0.14.0**
 //!
 //! ## Version:
 //!
-//! 1.1.0
+//! 1.2.0
 
 /// This module provides functionality for building an external configuration
 ///
@@ -66,3 +71,14 @@ pub mod stdio;
 ///
 /// 2024-06-19
 pub mod random;
+
+/// This module provides functionality for getting arguments passed in command line interface
+///
+/// ## `args` module
+///
+/// - It has 1 function that returns a collection of arguments in command line interface
+///
+/// ## Since:
+///
+/// 2024-07-12
+pub mod args;
