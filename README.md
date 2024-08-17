@@ -12,11 +12,11 @@
 
 ### Read the Rustdoc for the main Modules
 
-- [env](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/env/index.html)
-- [execution](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/execution/index.html)
-- [stdio](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/stdio/index.html)
-- [random](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/random/index.html)
-- [args](https://docs.rs/best_skn_utils/1.2.0/best_skn_utils/args/index.html)
+- [env](https://docs.rs/best_skn_utils/1.2.1/best_skn_utils/env/index.html)
+- [execution](https://docs.rs/best_skn_utils/1.2.1/best_skn_utils/execution/index.html)
+- [stdio](https://docs.rs/best_skn_utils/1.2.1/best_skn_utils/stdio/index.html)
+- [random](https://docs.rs/best_skn_utils/1.2.1/best_skn_utils/random/index.html)
+- [args](https://docs.rs/best_skn_utils/1.2.1/best_skn_utils/args/index.html)
 
 &nbsp;
 
@@ -83,9 +83,9 @@
 
 ## **_Requirements:_**
 
-- 💀 Minimum Rust Version: `1.78.0`
+- 💀 Minimum Rust Version: `1.80.0`
 - 💀 Crates:
-  - [serde](https://crates.io/crates/serde): `1.0.203`
+  - [serde](https://crates.io/crates/serde): `1.0.208`
   - [num](https://crates.io/crates/num): `0.4.3`
   - [rand](https://crates.io/crates/rand): `0.8.5`
   - [config](https://crates.io/crates/config): `0.14.0`
@@ -212,9 +212,6 @@
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. I
-  can't thank them
-  enough for always treasuring me a lot. I am lucky that I met with these two amazing ladies. They
-  have two special
-  places in my heart and no other girl can ever replace them.
+- 👩‍⚕️`Tanjila Hasan Trina`: The long lost love of my life. The course of nature separated us from our paths and put us in separate places far away from each other. But no matter how separated we are right now, each and every moment of mine is only dedicated to you. We may not see each other in this lifetime as it seems but I will find you again in the next life. I just one to say: `世界は残酷だ それでも君を愛すよ`
 - 💯`My Parents`: The greatest treasures of my life ever.
+- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life.

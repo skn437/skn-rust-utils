@@ -15,16 +15,16 @@
 //!
 //! ## Minimum Requirements:
 //!
-//! - 💀 Rust Version: **1.78.0**
+//! - 💀 Rust Version: **1.80.0**
 //! - 💀 Crates:
-//!     - serde: **1.0.203**
+//!     - serde: **1.0.208**
 //!     - num: **0.4.3**
 //!     - rand: **0.8.5**
 //!     - config: **0.14.0**
 //!
 //! ## Version:
 //!
-//! 1.2.0
+//! 1.2.1
 
 /// This module provides functionality for building an external configuration
 ///
