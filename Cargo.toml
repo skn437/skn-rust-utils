@@ -1,9 +1,9 @@
 [package]
 name = "best_skn_utils"
 description = "A Simple Utility Library For Rust"
-version = "1.2.0"
+version = "1.2.1"
 edition = "2021"
-rust-version = "1.78.0"
+rust-version = "1.80.0"
 readme = "README.md"
 license = "MIT"
 keywords = ["utility", "library"]
@@ -16,9 +16,9 @@ repository = "https://github.com/skn437/skn-rust-utils"
 maintenance = { status = "actively-developed" }
 
 [dependencies]
-best_skn_message = "1.2.1"
+best_skn_message = "1.2.2"
 config = { version = "0.14.0", features = ["toml", "yaml"] }
-serde = { version = "1.0.203", features = ["derive"] }
+serde = { version = "1.0.208", features = ["derive"] }
 num = "0.4.3"
 rand = "0.8.5"
 
