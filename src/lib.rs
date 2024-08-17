@@ -24,7 +24,7 @@
 //!
 //! ## Version:
 //!
-//! 1.2.1
+//! 1.2.2
 
 /// This module provides functionality for building an external configuration
 ///
