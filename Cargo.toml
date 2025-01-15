@@ -17,7 +17,7 @@ maintenance = { status = "actively-developed" }
 
 [dependencies]
 best_skn_message = "1.2.4"
-config = { version = "0.14.0", features = ["toml", "yaml"] }
+config = { version = "0.15.6", features = ["toml", "yaml"] }
 serde = { version = "1.0.208", features = ["derive"] }
 num = "0.4.3"
 rand = "0.8.5"
