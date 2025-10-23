@@ -12,11 +12,11 @@
 
 ### Read the Rustdoc for the main Modules
 
-- [env](https://docs.rs/best_skn_utils/1.2.3/best_skn_utils/env/index.html)
-- [execution](https://docs.rs/best_skn_utils/1.2.3/best_skn_utils/execution/index.html)
-- [stdio](https://docs.rs/best_skn_utils/1.2.3/best_skn_utils/stdio/index.html)
-- [random](https://docs.rs/best_skn_utils/1.2.3/best_skn_utils/random/index.html)
-- [args](https://docs.rs/best_skn_utils/1.2.3/best_skn_utils/args/index.html)
+- [env](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/env/index.html)
+- [execution](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/execution/index.html)
+- [stdio](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/stdio/index.html)
+- [random](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/random/index.html)
+- [args](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/args/index.html)
 
 &nbsp;
 
@@ -212,7 +212,7 @@
 
 ## **_Dedicated To:_**
 
-- 👩‍⚕️`Tanjila Hasan Trina`: The long lost love of my life. The course of nature separated us from our paths and put us in separate places far away from each other. But no matter how separated we are right now, each and every moment of mine is only dedicated to you. We may not see each other in this lifetime as it seems but I will find you again in the next life. I just want to say: `世界は残酷だ それでも君を愛すよ`
+- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. My best wishes will always be with you two. May you two always be happy.
 - 💯`My Parents`: The greatest treasures of my life ever.
 
 &nbsp;
