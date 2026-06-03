@@ -1,5 +1,5 @@
 use num::Num;
-use rand::{thread_rng, distributions::uniform::SampleUniform, Rng};
+use rand::{distr::uniform::SampleUniform, rng, RngExt};
 use std::cmp::PartialOrd;
 
 /// Generates random number of type `Integer` or `Float`
@@ -15,7 +15,7 @@ use std::cmp::PartialOrd;
 ///
 /// ## Since:
 ///
-/// v1.1.0
+/// v1.3.0
 ///
 /// ## Usage:
 ///
@@ -35,7 +35,7 @@ pub fn gen_random_number<T>(low: T, high: T) -> T
 where
   T: Num + SampleUniform + PartialOrd,
 {
-  let random_number: T = thread_rng().gen_range(low..=high);
+  let random_number: T = rng().random_range(low..=high);
 
   random_number
 }

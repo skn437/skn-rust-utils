@@ -1,6 +1,6 @@
 # SKN Rust Utility Library
 
-<img width="150px" src="https://firebasestorage.googleapis.com/v0/b/skn-ultimate-project-la437.appspot.com/o/GitHub%20Library%2F07-Rust-SRU.svg?alt=media&token=7f4940f6-d18f-46fb-88ac-e21f6bf27d89" alt="rust" />
+<img width="150px" src="./public/rust-utility.svg" alt="rust" />
 
 > Rust
 
@@ -12,11 +12,11 @@
 
 ### Read the Rustdoc for the main Modules
 
-- [env](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/env/index.html)
-- [execution](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/execution/index.html)
-- [stdio](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/stdio/index.html)
-- [random](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/random/index.html)
-- [args](https://docs.rs/best_skn_utils/1.2.4/best_skn_utils/args/index.html)
+- [env](https://docs.rs/best_skn_utils/1.3.0/best_skn_utils/env/index.html)
+- [execution](https://docs.rs/best_skn_utils/1.3.0/best_skn_utils/execution/index.html)
+- [stdio](https://docs.rs/best_skn_utils/1.3.0/best_skn_utils/stdio/index.html)
+- [random](https://docs.rs/best_skn_utils/1.3.0/best_skn_utils/random/index.html)
+- [args](https://docs.rs/best_skn_utils/1.3.0/best_skn_utils/args/index.html)
 
 &nbsp;
 
@@ -83,12 +83,12 @@
 
 ## **_Requirements:_**
 
-- 💀 Minimum Rust Version: `1.80.0`
+- 💀 Minimum Rust Version: `1.93.0`
 - 💀 Crates:
   - [serde](https://crates.io/crates/serde): `1.0.208`
   - [num](https://crates.io/crates/num): `0.4.3`
-  - [rand](https://crates.io/crates/rand): `0.8.5`
-  - [config](https://crates.io/crates/config): `0.14.0`
+  - [rand](https://crates.io/crates/rand): `0.10.1`
+  - [config](https://crates.io/crates/config): `0.15.23`
 
 &nbsp;
 
@@ -212,8 +212,9 @@
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. My best wishes will always be with you two. May you two always be happy.
+- 👩‍🎨`Logno` & 🧛‍♀️`Atoshi`: The two most special ladies of my life. My best wishes will always be with you two.
 - 💯`My Parents`: The greatest treasures of my life ever.
+- 👩`Trina`: The lady who resides deep inside my heart. Our paths got separated, perhaps it was fate and I accepted it. But you are always in each and every moments of my life. May you be healthy and happy always.
 
 &nbsp;
 
